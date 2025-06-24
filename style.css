@@ -55,8 +55,6 @@ body {
     padding: 20px 30px; 
     width: fit-content;
     border-radius: 15px;
-    border-style: outset;
-    border-color: #8f35e3;
     margin: 30px auto; 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -98,7 +96,7 @@ body {
     border: 1px solid #c9b1e0; 
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 10px #8b2ee2;
+    box-shadow: 0 4px 5px #8b2ee2;
 }
 
 .tabelas th, .tabelas td{
@@ -106,7 +104,8 @@ body {
     padding: 12px 15px;
     text-align: left;
     order: 1px solid;
-    border-color:  #e7d8f5; 
+    border-color:#e7d8f5; 
+     border: 2px solid #e7d8f5;
 }
 
 #itens_tabela{
@@ -130,7 +129,7 @@ body {
 
 #links a {
     color: #dfcdf0;
-    text-decoration: none; /* Remover sublinhado padrão */
+    text-decoration: none;
     font-weight: bold; 
 }
 
@@ -141,7 +140,14 @@ body {
 }
 
 .footer{
-background-color: #dfcdf0;
+
+height:fit-content;
+width: fit-content;
+padding: 10px;
+border-radius: 20px;
+margin: auto;
+padding-bottom: 20px;
+margin-top: 1px;
 }
 
 #botmensagem{
